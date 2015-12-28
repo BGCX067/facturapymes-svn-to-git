@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://190.152.78.222:8080/SAITEL_WS/comandoService?wsdl" uri="src/conf/xml-resources/web-service-references/comandoService/wsdl/190.152.78.222_8080/SAITEL_WS/comandoService.wsdl"/>
+    <system systemId="http://201.219.9.5:8080/SAITEL_WS/comandoService?wsdl" uri="src/conf/xml-resources/web-service-references/comandoService_1/wsdl/201.219.9.5_8080/SAITEL_WS/comandoService.wsdl"/>
+    <system systemId="http://201.219.9.5:8080/SAITEL_WS/comandoService?xsd=1" uri="src/conf/xml-resources/web-service-references/comandoService_1/wsdl/201.219.9.5_8080/SAITEL_WS/comandoService.xsd_1.xsd"/>
+    <system systemId="http://186.3.11.195:8080/SAITEL_WS/comandoService?wsdl" uri="src/conf/xml-resources/web-service-references/comandoService_2/wsdl/186.3.11.195_8080/SAITEL_WS/comandoService.wsdl"/>
+    <system systemId="http://190.152.78.222:8080/SAITEL_WS/comandoService?xsd=1" uri="src/conf/xml-resources/web-service-references/comandoService_xsd_1/wsdl/190.152.78.222_8080/SAITEL_WS/comandoService.xsd_1.xsd"/>
+    <system systemId="http://186.3.11.195:8080/SAITEL_WS/comandoService?xsd=1" uri="src/conf/xml-resources/web-service-references/comandoService_xsd_1/wsdl/186.3.11.195_8080/SAITEL_WS/comandoService.xsd_1.xsd"/>
+    <system systemId="http://186.3.11.195:8080/SAITEL_WS/comandoService" uri="src/conf/xml-resources/web-service-references/comandoService/wsdl/186.3.11.195_8080/saitel_ws/comandoservice.xml"/>
+    <system systemId="http://localhost:8080/SAITEL_WS/comandoService?wsdl" uri="src/conf/xml-resources/web-service-references/comandoService/wsdl/localhost_8080/SAITEL_WS/comandoService.wsdl"/>
+    <system systemId="http://localhost:8080/SAITEL_WS/comandoService?WSDL" uri="src/conf/xml-resources/web-service-references/comandoService/wsdl/localhost_8080/SAITEL_WS/comandoService.wsdl"/>
+    <system systemId="http://localhost:8080/SAITEL_WS/comandoService?xsd=1" uri="src/conf/xml-resources/web-service-references/comandoService/wsdl/localhost_8080/SAITEL_WS/comandoService.xsd_1.xsd"/>
+    <system systemId="https://cel.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantes?wsdl" uri="src/conf/xml-resources/web-service-references/RecepcionComprobantes/wsdl/cel.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantes.wsdl"/>
+    <system systemId="file:/C:/docs_electronicos/RecepcionComprobantes.wsdl" uri="src/conf/xml-resources/web-service-references/RecepcionComprobantes/wsdl/RecepcionComprobantes.wsdl"/>
+    <system systemId="https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantes?wsdl" uri="src/conf/xml-resources/web-service-references/RecepcionComprobantes/wsdl/celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantes.wsdl"/>
+    <system systemId="https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantes?wsdl" uri="src/conf/xml-resources/web-service-references/AutorizacionComprobantes/wsdl/celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantes.wsdl"/>
+</catalog>

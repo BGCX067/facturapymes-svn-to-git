@@ -1,0 +1,111 @@
+BODY{background-image:url(../img/fondo1.jpg); margin: 0;padding: 0;line-height:1;background-color:3585ba;overflow:hidden;}
+BODY, TABLE, TR, TH, TD, DIV, SPAN, INPUT, SELECT, OPTION, LABEL, A, TEXTAREA, li{font-family:Arial,Helvetica,sans-serif;font-size:11px;}
+
+.jm_tabla{display:table;}
+.jm_fila{display:table-row;clear:both;}
+.jm_columna{float:left;}
+.caja,.der{border:1px solid #CCCCCC;height:35px;background-color:#FFFFFF;}
+.caja1{border:1px solid #CCCCCC;height:55px;background-color:#FFFFFF;}
+.der{text-align:right;}
+.comboSimple{border-width:0px;background-color:#FFFFFF;}
+
+#jmSep, .jmBT, .jmFPBT, .jm_titulo, .jm_cerrar, .jm_icoCon, .jmBTME, #d_logo, #barra0, .jmICOM, .elim{background-image:url(../img/iconos.png);}
+#jmSep, .jmBT{background-repeat:no-repeat;}
+#jmSep, .jmFPBT, .jmBTF, .d_nav{float:left;display:table-cell;}
+#jmSep{background-position:-492px 3px;width:11px;height:34px;}
+.elim{background-position:-547px -18px;width:16px;height:16px;float:right;}
+.d_nav, #d_nav_pags, #axd_nav_pags{font-size:16px;}
+#d_nav_pag, #axd_nav_pag{width:50px;height:25px;text-align:center;font-size:16px;}
+.jmBTME{background-position:-291px -113px;}
+.jmFPBT, .jmBTF{border-width:1px;border-style:solid;font-size:14px;}
+.jmFPBT{background-repeat:repeat-x;background-position:-250px -114px;border-color:#8AC5FF;cursor:pointer;}
+.jmBTF{border-color:transparent;}
+.jmBTMS{background-color:#C4D1F2;cursor:pointer;}
+.jmBTMF{border-color:#E2EDF3;}
+.jm_icoCon{cursor:pointer;width:18px;height:16px;display:table-cell;float:left;}
+a.jm_menu, a.jm_menu:active, a.jm_menu:hover{text-decoration:none;color:#333333;font-size:12px;height:25px;}
+a.jm_menu:hover{background-color:#427A8A;color:#FFFFFF;height:25px;}
+.jm_selectorFecha{background-color:#ACCDD7;border-width:1px;border-style:solid;border-color:#666666;position:absolute;width:226px;cursor:default;z-Index:50;}
+a.jm_hoy, a.jm_hoy:active, a.jm_hoy:hover{font-family:Arial, Helvetica, sans-serif;text-decoration:none;font-weight:bold;color:#333333;font-size:10px;}
+a.jm_hoy:hover{background-color:#427A8A;color:#FFFFFF;}
+a.jm_dia, a.jm_dia:active, a.jm_dia:hover{text-decoration:none;color:#000000;border:1px solid #EEEEEE;width:15px;}
+a.jm_dia:hover{color:#CC3300;border-color:#427A8A;}
+a.tarea, a.tarea:active, a.tarea:hover{text-decoration:underline;color:#024f85;font-size:10px;height:25px;}
+.jm_mes{background-color:#EEEEEE;color:#000000;font-size:9px;}
+.jm_tablaDias{background-color:#EEEEEE;border-color:#427A8A;font-size:9px;}
+.jm_tituloDias{font-size:10px;color:#000000;}
+.jm_tablaFecha{background-color:#EEEEEE;width:100%;}
+.jm_diaMarcado{background-color:#5397AC;border:1px solid #5397AC;}
+.jm_ventana{background-color:#FFFFFF;border:2px solid #3A8ECE;position:absolute;}
+.jm_titulo{background-position:0px -89px;background-repeat:repeat-x;color:#FFF;font-weight:bold;font-size:11px;width:100%;height:23px;cursor:move;font-size:13px;}
+.jm_txtTitulo{font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;font-size:13px;margin-left:5px;float:left;}
+.jm_cerrar{width:38px;height:14px;cursor:default;background-position:-507px 0px;background-repeat:no-repeat;float:right;}
+.jm_contenido{margin:.5em;overflow:auto;}
+#ppp_html{overflow:auto;padding:5px;}
+.jm_tabla, .jm_TH{font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;font-size:11px;}
+.jm_tabla{background-color:#999999;}
+.jm_TH{border-style:solid;border-width:1px;background-color:#E8E8E8;border-color:#FFFFFF #333333 #333333 #FFFFFF;}
+.jm_filaSobre{background-color:#CCEBFF;vertical-align:top;}
+.jm_filaPar{background-color:#FFFFFF;vertical-align:top;}
+.jm_filaImp{background-color:#F0F9FF;vertical-align:top;}
+.jm_filaEsp{background-color:#FFB442;vertical-align:top;}
+.jm_filaSel{background-color:#C4D1F2;vertical-align:top;}
+.grupoTab{background-color:#6B93AF;border:1px solid #4E758F;padding:10px;}
+a.jm_tab, a.jm_tab:active, a.jm_tab:hover{background-color:#AFC3D4;color:#0D3144;text-decoration:none;font-weight:bold;padding:5px; width:200px;cursor:pointer;}
+a.jm_tab:hover{background-color:#CDDAE4;border-color:#CCEBFF;}
+.jm_tabAct{background-color:#F0F4F7;color:#000000;text-decoration:none;font-weight:bold;padding:5px;}
+.jm_tabHTML{overflow:auto;background-color:#FFFFFF;padding:8px 5px 5px 5px;}
+.notificacion{position:absolute;width:200px;max-height:300px;right:0px;bottom:-200px;background-color:#ef3e2f;border:solid 1px #ae2d22;z-index:1000}
+#d_notfCuerpo{overflow:auto;overflow-x:hidden;width:200px;max-height:188px;}
+.d_notfMsg{background-color:#FFFFFF;font-weight:bold;}
+.d_notSep{border:solid 5px #ef3e2f}
+
+.grupo{background-color:#E2EDF3;border:1px solid #9BB6C6;}
+.indicador, .indicador1{color:#055678;vertical-align:middle;cursor:pointer;}
+.indicador{font-size:10px;}
+.indicador1{background-color:#E2EDF3;vertical-align:middle;text-align:center;width:10px;cursor:w-resize;}
+.d_fila{background-color:#E2EDF3;}
+.celda{display:table-cell;}
+.columna{background-color:#FFFFFF;border:1px solid #9BB6C6;}
+.columna1{background-color:#FFFFFF;overflow:hidden;width:250px;padding:3px;}
+#celda00{width:165px;}
+#d_menu{overflow:auto;width:150px;}
+#celda11{width:13px;vertical-align:middle;}
+#celda12{padding:3px;}
+#d_logo{background-position:0px 0px;background-repeat:no-repeat;height:89px;width:165px;}
+#d_usuario{padding-left:2px;text-align:right;padding-top:5px}
+#d_titulo{font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;font-size:18px;padding-bottom:5px;padding-right:230px}
+#d_filtro{height:80px; padding:4px;vertical-align:bottom;}
+
+#d_herra{background-color:#CDDAE4;border-color:#AFC3D4;height:35px;margin-bottom:3px;}
+.amague{overflow:hidden;width:0px;height:0px;}
+#d_cuerpo{overflow:auto;}
+#pie{width:100%;position:absolute;bottom:0px;height:15px;}
+#barra0, #d_herra{border-width:1px;border-style:solid;}
+#barra0{background-position:0px -114px;height:36px}
+.barra0{position:absolute;top:0px;right:9px;border-color:#427A8A;}
+.gr_ayuda{background-color:#E2EDF3;border:1px solid #2C61CC;color:#21272C;width:200px;position:absolute;}
+#barr_tit_ayuda{background-color:#2C61CC;color:#FFFFFF;padding:3px;font-weight:bolder;}
+#tit_ayuda{cursor:move;width:180px;}
+#des_ayuda{cursor:pointer;}
+#gr_despliegue{padding:3px;}
+#aux_ayuda{width:188px;margin-top:6px;}
+
+.H1, .H2, .H3, .H4, .H5, .MARQUE{color:#0D3144;background-color:#E4CC98;border:1px solid #C09231;text-align:center;}
+.H1{font-size:20px;}
+.H2{font-size:18px;}
+.H3{font-size:16px;}
+.H4{font-size:14px;}
+.H5{font-size:10px;}
+.inpTbl{text-align:right;border:0px;}
+.marca{color:#CC3300;font-weight:bold;}
+.may{text-transform:uppercase;}
+.min{text-transform:lowercase;}
+.msg{background-color:#F4EAD5;font-size:10px;border-width:1px;border-style:solid;border-color:#F2E1C6 #D8B365 #D8B365 #F2E1C6;width:200px;height:100px;text-align:justify;padding:5px;position:absolute;z-Index:50;overflow:auto;}
+
+.filtro_mas{float:left;height:79px;background-color:#F9F1E6;border:solid 2px #F2E1C6;border-style:none none none solid;margin-right:7px;}
+.jm_submenu{position:absolute;padding:20px 10px 0px 10px;background-color:#F2E1C6;top:27px;width:440px;height:60px;left:170px}
+.grMac{float:left;margin-left:1px;background-color:#F9F1E6;border:solid 1px #F2E1C6;width:115px;height:16px}
+.cajMac{width:95px;background-color:#F9F1E6;border:0px;float:left;}
+a.botonMenu, a.botonMenu:active, a.botonMenu:hover{ padding: 5px; text-decoration:none;border:1px #E2EDF3 solid;color:#000000}
+a.botonMenu:hover{border:1px #8AC5FF solid; background-color:#E2EDF3; }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/SAITEL_WS/comandoService?wsdl" uri="wsdl/localhost_8080/SAITEL_WS/comandoService.wsdl"/>
+    <system systemId="http://localhost:8080/SAITEL_WS/comandoService?xsd=1" uri="wsdl/localhost_8080/SAITEL_WS/comandoService.xsd_1.xsd"/>
+    <system systemId="http://190.152.78.222:8080/SAITEL_WS/comandoService?wsdl" uri="wsdl/190.152.78.222_8080/SAITEL_WS/comandoService.wsdl"/>
+    <system systemId="http://190.152.78.222:8080/SAITEL_WS/comandoService?xsd=1" uri="wsdl/190.152.78.222_8080/SAITEL_WS/comandoService.xsd_1.xsd"/>
+    <system systemId="http://186.3.11.195:8080/SAITEL_WS/comandoService?xsd=1" uri="wsdl/186.3.11.195_8080/SAITEL_WS/comandoService.xsd_1.xsd"/>
+    <system systemId="http://186.3.11.195:8080/SAITEL_WS/comandoService" uri="wsdl/186.3.11.195_8080/saitel_ws/comandoservice.xml"/>
+    <system systemId="http://localhost:8080/SAITEL_WS/comandoService?WSDL" uri="wsdl/localhost_8080/SAITEL_WS/comandoService.wsdl"/>
+    <system systemId="https://cel.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantes?wsdl" uri="wsdl/cel.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantes.wsdl"/>
+    <system systemId="https://cel.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantes?wsdl" uri="wsdl/celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantes.wsdl"/>
+    <system systemId="https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantes?wsdl" uri="wsdl/celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantes.wsdl"/>
+    <system systemId="file:/C:/docs_electronicos/RecepcionComprobantes.wsdl" uri="wsdl/RecepcionComprobantes.wsdl"/>
+</catalog>
